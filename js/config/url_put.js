@@ -1,7 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const presensiId = urlParams.get('presensiId');
 
-export let urlPUT = "https://ws-bargana2024-abecd99cf108.herokuapp.com/presensi/" + presensiId;
+export let urlPUT = "https://ws-bargana2024-abecd99cf108.herokuapp.com/update/" + presensiId;
 
 export function AmbilResponse(result) {
     console.log(result); //menampilkan response API pada console
